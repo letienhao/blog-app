@@ -1,9 +1,10 @@
 import axios ,{AxiosInstance} from 'axios';
+
 class Http {
   instance: AxiosInstance
    constructor(){
     this.instance = axios.create({
-      baseURL :'https://json-server-vercel-xfd4.vercel.app/',
+      baseURL :'https://json-server-vercel-three-silk.vercel.app',
       timeout :10000
     })
    }
