@@ -1,0 +1,10 @@
+.form_data{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+}
+.form_data form{
+  width: 50%;
+}
